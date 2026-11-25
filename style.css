@@ -38,3 +38,4 @@ dialog{border:0;border-radius:10px;padding:0;width:min(520px,94vw);max-height:92
 dialog::backdrop{background:#1a1a17aa}dialog form{display:grid;gap:12px;padding:22px;position:relative}dialog h3{margin:0;font-size:24px}
 .x{position:absolute;right:12px;top:8px;background:none;border:0;font-size:30px;cursor:pointer;color:var(--ink)}
 .msg{margin:0;font-weight:600}.msg.ok{color:#1f6b3a}.msg.err{color:#b3261e}
+[hidden]{display:none!important}
