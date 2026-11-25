@@ -1,5 +1,4 @@
-:root{--bg:#f4f1e9;--ink:#1c1b18;--mute:#5d594f;--line:#d9d3c3;--accent:#1f4d45;--brass:#b8872f;--card:#fbf9f3}
-@media(prefers-color-scheme:dark){:root{--bg:#161512;--ink:#f1ede2;--mute:#a9a395;--line:#34312a;--accent:#7fc4b4;--brass:#d9a84a;--card:#1d1c18}}
+:root{--bg:#f4f1e9;--ink:#1a1a17;--mute:#5f5b50;--line:#d8d2c0;--accent:#1a1a17;--brass:#8a6d3b;--card:#faf8f1}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Source Serif 4",Georgia,serif}
 h1,h2,h3,.brand,.btn,button{font-family:"Bricolage Grotesque",system-ui,sans-serif}
@@ -31,3 +30,11 @@ details{border-bottom:1px solid var(--line);padding:12px 0}summary{cursor:pointe
 footer{border-top:1px solid var(--line);padding:28px 0;color:var(--mute);font-size:15px}
 .wa{position:fixed;right:16px;bottom:16px;z-index:6;background:#25d366;color:#052e16;padding:12px 16px;border-radius:30px;font:700 14px "Bricolage Grotesque";text-decoration:none;box-shadow:0 4px 14px #0003}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+.tabs{display:flex;gap:8px;margin:18px 0}.tabs .btn{padding:8px 16px}.tabs .on{background:var(--brass)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px;margin-bottom:12px;display:grid;gap:8px}
+.card input,.card textarea,.card select{margin:0}.row{display:flex;gap:8px;flex-wrap:wrap}.row>*{flex:1;min-width:120px}
+.danger{background:#a3261e;color:#fff}.small{padding:7px 12px;font-size:14px}
+dialog{border:0;border-radius:10px;padding:0;width:min(520px,94vw);max-height:92vh;background:var(--bg);color:var(--ink);box-shadow:0 20px 60px #0005}
+dialog::backdrop{background:#1a1a17aa}dialog form{display:grid;gap:12px;padding:22px;position:relative}dialog h3{margin:0;font-size:24px}
+.x{position:absolute;right:12px;top:8px;background:none;border:0;font-size:30px;cursor:pointer;color:var(--ink)}
+.msg{margin:0;font-weight:600}.msg.ok{color:#1f6b3a}.msg.err{color:#b3261e}

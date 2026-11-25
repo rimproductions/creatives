@@ -1,0 +1,7 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><link rel="icon" type="image/svg+xml" href="logo.svg"><title>Admin | RIM Productions</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="wrap"><a class="brand" href="index.html">RIM<span>.</span>ADMIN</a><button class="btn alt small" id="out" hidden>Log out</button></div></header>
+<div class="wrap" style="padding-top:24px">
+<form id="login"><h2>Admin login</h2><label>Email<input type="email" id="em" required></label><label>Password<input type="password" id="pw" required></label><button class="btn">Log in</button><p id="lm" class="err"></p></form>
+<div id="app" hidden><div class="tabs"><button class="btn on" data-t="orders">Orders</button><button class="btn" data-t="services">Services</button><button class="btn" data-t="samples">Samples</button></div><div id="view"></div></div></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script><script src="config.js"></script><script src="admin.js"></script></body></html>
